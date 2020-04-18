@@ -1,0 +1,339 @@
+@media (max-width : 480px){
+    #header .banner{
+        display: block;
+        padding: 10px;   
+    }
+    .banner h4{
+        margin-left: 5%;
+        padding: 3px;
+    }
+    .banner .socials{
+        margin-left: 5%;
+    }
+    .banner i{
+        padding: 10px 20px;
+    }
+    .banner ul{
+        margin-left: 10%;
+    }
+    .banner ul li{
+        padding-left: 0%;
+    }
+    .navbar{
+        background: linear-gradient(to right, crimson,white);
+        position: fixed;
+        top: 0;
+        left: -500px;
+        height: 100vh;
+        padding: 100px;
+        transition: all 2s linear;
+    }
+    .log img{
+        width: 100%;
+        margin: 10px;
+    }
+    .navbar ul{
+        display: block;
+        margin: 15%;
+    }
+    .navbar ul li{
+        padding: 20%;  
+    }
+    .navbar ul li a{ 
+        padding: 20px;
+        font-size: 1.5em;
+    }
+    .wrapper button{
+        display: none;
+    }
+    #showcase .show{
+        display: block;
+    }
+    #showcase .news{
+        font-size: 1.2em;
+    }
+    #showcase .news p{
+        margin: 20px;
+    }
+    #content .content-area{
+        display: block;
+    }
+    .content-area .exp{
+        padding: 80px;
+    }
+    .content-area img{
+        width: 100%;
+    }
+    #apply{
+        display: block;
+        margin: 0px;
+        padding: 0 20%;
+    }
+    #apply h3{
+        padding: 5%;
+    }
+    #apply .fa{
+        margin: 0% 30%;
+    }
+    #Gallery{
+        display: block;
+        padding: 3%; 
+    }
+    .main-img img{
+        width: 100%;
+    }
+    .sub-img{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 0 0 0 15%;
+    }
+    .sub-img img{
+        width: 80%;
+    }
+    .logo-pane{
+    margin-left: 15%
+    }
+    .logo-pane img{
+        width: 25%;
+        margin:10% 0;
+    }
+    .foot-banner{
+        display: block;
+        padding: 30px;
+    }
+    .foot-banner button{
+        margin: 10%;
+        width: 30%;
+    }
+    .foot-banner h3{
+        font-size: 1em;
+    }
+    .foot-notes{
+        display: block;
+    }
+    h2{
+       margin-top: 20%;
+    }
+    .foot-notes ul{
+        padding: 20px;
+        margin-left: 0;
+    }
+    .foot-notes li{
+        list-style: none;
+        margin-bottom: 12%;
+    }
+    .foot-notes li a{
+        padding: 20%;   
+    }
+    .tgnbtn{
+        display: block;
+        position: absolute;
+        left: 90%;
+        top: 25%;
+        font-size: 1.9em;
+        color: crimson;
+    }
+    #btn2{
+        display: none;
+    }
+    form{
+        display: block;
+        margin: 5% 10% 0 10%;
+        padding: 2%;
+    }
+    textarea{
+        width: 90%;
+    }
+    .tabPanels ul{
+        width: 100%;
+    }
+    .tabs a{
+        font-size: 1em;
+    }
+    .desc{
+        display: block;
+    }
+    h1{
+       font-size: 2em;
+       margin: 10%;
+    }
+    .row{
+        display: block;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    #header .banner{
+        display: block;
+        padding: 10px; 
+        font-size: 2em;  
+    }
+    .banner h4{
+        margin-left: 5%;
+        padding: 3px;
+    }
+    .banner .socials{
+        margin-left: 5%;
+    }
+    .banner i{
+        padding: 10px 20px;
+    }
+    .banner ul{
+        margin-left: 6%;
+    }
+    .banner ul li{
+        padding-left: 0%;
+    }
+    .navbar{
+        background: linear-gradient(to right, crimson,white);
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        padding: 5% 30%;
+        transition: all 2s linear;
+    }
+    .log img{
+        width: 100%;
+        margin: 10px;
+    }
+    .navbar ul{
+        display: block;
+        margin: 0;
+    }
+    .navbar ul li{
+        padding: 40%;  
+    }
+    .navbar ul li a{ 
+        padding: 50%;
+        font-size: 2.6em;
+    }
+    .wrapper button{
+        display: none;
+    }
+    #showcase .show{
+        display: block;
+    }
+    #showcase .news{
+        font-size: 2.2em;
+    }
+    #showcase .news p{
+        margin: 20px;
+    }
+    #content .content-area{
+        display: block;
+    }
+    .content-area .exp{
+        padding: 80px;
+    }
+    .content-area img{
+        width: 100%;
+    }
+    .content-area p{
+        font-size: 2em;
+    }
+    #apply{
+        display: block;
+        margin: 0px;
+        padding: 0 20%;
+    }
+    #apply h3{
+        font-size: 3em;
+        padding: 5% 0;
+    }
+    #apply .fa{
+        font-size: 8em;
+        margin: 0% 40%;
+    }
+    #apply p{
+        font-size: 2em;
+    }
+    #Gallery{
+        display: block;
+        padding: 3%; 
+    }
+    .main-img img{
+        width: 100%;
+    }
+    .sub-img{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 0 0 0 15%;
+    }
+    .sub-img img{
+        width: 80%;
+    }
+    .logo-pane{
+    margin-left: 15%
+    }
+    .logo-pane img{
+        width: 25%;
+        margin:10% 0;
+    }
+    .foot-banner{
+        display: block;
+        padding: 30px;
+        font-size: 2em;
+    }
+    .foot-banner button{
+        margin: 10%;
+        width: 30%;
+    }
+    .foot-notes{
+        display: block;
+    }
+    h2{
+        font-size: 4em;
+       margin-top: 20%;
+    }
+    .foot-notes ul{
+        padding: 10px;
+        margin: 2em 0 0 0;
+        font-size: 3em;
+    }
+    .foot-notes li{
+        list-style: none;
+        margin-bottom: 12%;
+    }
+    .foot-notes li a{
+        padding: 20%;   
+    }
+    .foot-notes p{
+        font-size: 3em;
+    }
+    .tgnbtn{
+        display: block;
+        position: absolute;
+        left: 90%;
+        top: 20%;
+        font-size: 3em;
+        color: crimson;
+    }
+    #btn2{
+        display: none;
+    }
+    button{
+        font-size: 30px;
+    }
+    .news h2{
+        font-size: 2em;
+    }
+    h6{
+        font-size: 2.2em;
+    }
+    input{
+        font-size: 2em;
+    }
+    .tabs a{
+        font-size: 1.5em;
+    }
+    .desc{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    h1{
+       margin: 10%;
+    }
+    .row{
+        display: block;
+    }
+}
